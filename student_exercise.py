@@ -1,6 +1,6 @@
-class Student:
+class Student: #parent class
     def __init__(self, name, number, city, average_grade):
-        self.name = name
+        self.name = name 
         self.number = number
         self.city = city
         self.average_grade = average_grade
